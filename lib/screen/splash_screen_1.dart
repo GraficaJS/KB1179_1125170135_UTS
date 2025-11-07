@@ -6,7 +6,23 @@ class MySplashScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Scaffold(),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Spacer(),
+            SizedBox(height: 50),
+            Container(
+              width: 250,
+              height: 250,
+              decoration: BoxDecoration(
+                shape: BoxShape.circle,
+                color: Colors.redAccent,
+              ),
+            )
+          ],
+        ),
+      ),
     );
   }
 }
