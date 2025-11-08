@@ -16,7 +16,11 @@ class MySplashScreen extends StatelessWidget {
                 height: 250,
                 decoration: BoxDecoration(
                   shape: BoxShape.circle,
-                  color: Colors.redAccent,
+                  color: Colors.pink,
+                  image: DecorationImage(
+                    image: AssetImage("images/roblox33.jpg"),
+                    fit: BoxFit.cover,
+                    )
                 ),
               )
             ],
