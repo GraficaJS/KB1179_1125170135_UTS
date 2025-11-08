@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 
 class Login extends StatelessWidget {
   const Login({super.key});
@@ -65,9 +64,22 @@ class Login extends StatelessWidget {
                       borderRadius: BorderRadius.circular(12),
                       borderSide: BorderSide(color: Colors.pink[300]!),
                     ),
-                    
+                    focusedBorder: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(12),
+                      borderSide: BorderSide(
+                        color: Colors.pink[700]!,
+                        width: 2,
+                      ),
+                    ),
                   ),
-                )
+                ),
+                Align(
+                  alignment: AlignmentGeometry.centerRight,
+                  child: TextButton(
+                    onPressed: (){},
+                    child: Text("Lupa Pasword?",)),
+                ),
+
               ],
             ),
           ),
