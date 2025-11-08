@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:uts_1125170135/screen/splash_screen_1.dart';
+import 'package:uts_1125170135/screen/login.dart';
 
 class MySplashScreen3 extends StatelessWidget {
   const MySplashScreen3({super.key});
@@ -31,7 +31,7 @@ class MySplashScreen3 extends StatelessWidget {
                 fontWeight: FontWeight.bold,
               ),),
               SizedBox(height: 15),
-              Text("Bergabunglah dengan komunitas \n Bermain dan berkreasi, itulah Roblox",
+              Text("Bergabunglah dengan komunitas \n Bermain dan berkreasi \n itulah Roblox",
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 20.0,
@@ -79,7 +79,7 @@ class MySplashScreen3 extends StatelessWidget {
                     onPressed: (){
                       Navigator.push(
                         context,
-                        MaterialPageRoute(builder: (context) => MySplashScreen(),
+                        MaterialPageRoute(builder: (context) => Login(),
                         ),);
                     },
                     style: ElevatedButton.styleFrom(
