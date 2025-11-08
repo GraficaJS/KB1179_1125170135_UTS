@@ -47,7 +47,25 @@ class MySplashScreen extends StatelessWidget {
                       shape: BoxShape.circle,
                       color: Colors.pink,
                     ),
-                  )
+                  ),
+                  SizedBox(width: 10),
+                  Container(
+                    width: 10,
+                    height: 10,
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      color: Colors.pink[100],
+                    ),
+                  ),
+                  SizedBox(width: 10),
+                  Container(
+                    width: 10,
+                    height: 10,
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      color: Colors.pink[100],
+                    ),
+                  ),
                 ],
               )
             ],
