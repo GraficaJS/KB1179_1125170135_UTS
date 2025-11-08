@@ -118,10 +118,16 @@ class Login extends StatelessWidget {
                     icon: Icon(Icons.g_mobiledata, color: Colors.pink[800]),
                      label: Text("Login dengan Google",
                      style: TextStyle(color: Colors.pink),
+                     ),
+                     style: OutlinedButton.styleFrom(
+                      padding: const EdgeInsets.symmetric(vertical: 12),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadiusGeometry.circular(12),
+                      ),
+                      side: BorderSide(color: Colors.pink[300]!),
                      ),),
               ],
             ),
-
           ),
         ),
       ),
