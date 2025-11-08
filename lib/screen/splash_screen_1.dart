@@ -20,9 +20,14 @@ class MySplashScreen extends StatelessWidget {
                   image: DecorationImage(
                     image: AssetImage("images/roblox33.jpg"),
                     fit: BoxFit.cover,
-                    )
+                    ),
                 ),
-              )
+              ),
+              SizedBox(height: 15),
+              Text("Roblox",
+              style: TextStyle(
+                fontSize: 50.0,
+              ),)
             ],
           ),
       ),
