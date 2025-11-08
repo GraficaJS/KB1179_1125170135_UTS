@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 class Login extends StatelessWidget {
   const Login({super.key});
@@ -29,6 +30,13 @@ class Login extends StatelessWidget {
                 fontSize: 15.0,
                 fontWeight: FontWeight.normal,
               ),),
+              TextField(
+                keyboardType: TextInputType.emailAddress,
+                decoration: InputDecoration(
+                  labelText: "Email",
+
+                ),
+              )
             ],
           ),
         ),
