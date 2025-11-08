@@ -11,6 +11,8 @@ class Login extends StatelessWidget {
           child: Container(
             padding: const EdgeInsets.all(20.0),
             child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
                 SizedBox(height: 10),
                 Icon(
@@ -20,12 +22,14 @@ class Login extends StatelessWidget {
                 ),
                 SizedBox(height: 10),
                 Text("Selamat Datang",
+                textAlign: TextAlign.center,
                 style: TextStyle(
                   fontSize: 20.0,
                   fontWeight: FontWeight.bold,
                 ),),
                 SizedBox(height: 10),
                 Text("Silahkan Login",
+                textAlign: TextAlign.center,
                 style: TextStyle(
                   fontSize: 15.0,
                   fontWeight: FontWeight.normal,
