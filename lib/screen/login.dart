@@ -95,9 +95,13 @@ class Login extends StatelessWidget {
                     ),
                     elevation: 2,
                   ),
-                  child: Text("Atau"))
+                  child: Text("Login",
+                  style: TextStyle(fontSize: 16,fontWeight: FontWeight.bold),
+                  ),),
+                  
               ],
             ),
+
           ),
         ),
       ),
