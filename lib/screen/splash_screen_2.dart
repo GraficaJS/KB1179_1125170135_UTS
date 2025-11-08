@@ -88,7 +88,7 @@ class MySplashScreen2 extends StatelessWidget {
                     child: Text("Lanjutkan",
                     style: TextStyle(fontSize: 14,
                     color: Colors.white,
-                    fontWeight: FontWeight.bold,)
+                    fontWeight: FontWeight.bold),
                     )),
                 ),
               ),

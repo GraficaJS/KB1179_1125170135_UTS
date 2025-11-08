@@ -55,7 +55,7 @@ class MySplashScreen3 extends StatelessWidget {
                     height: 10,
                     decoration: BoxDecoration(
                       shape: BoxShape.circle,
-                      color: Colors.pink,
+                      color: Colors.pink[100],
                     ),
                   ),
                   SizedBox(width: 10),
@@ -64,7 +64,7 @@ class MySplashScreen3 extends StatelessWidget {
                     height: 10,
                     decoration: BoxDecoration(
                       shape: BoxShape.circle,
-                      color: Colors.pink[100],
+                      color: Colors.pink,
                     ),
                   ),
                 ],
@@ -86,7 +86,9 @@ class MySplashScreen3 extends StatelessWidget {
                       backgroundColor: Colors.pink
                     ),
                     child: Text("Lanjutkan",
-                    style: TextStyle(fontSize: 14),
+                    style: TextStyle(fontSize: 14,
+                    color: Colors.white,
+                    fontWeight: FontWeight.bold),
                     )),
                 ),
               ),
