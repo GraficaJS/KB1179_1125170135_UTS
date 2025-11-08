@@ -34,7 +34,8 @@ class Login extends StatelessWidget {
                 keyboardType: TextInputType.emailAddress,
                 decoration: InputDecoration(
                   labelText: "Email",
-
+                  hintText: "Masukan email anda",
+                  
                 ),
               )
             ],
