@@ -15,8 +15,14 @@ class Login extends StatelessWidget {
               Icon(
                 Icons.lock_outline,
                 size: 80,
-                
-              )
+                color: Colors.pink,
+              ),
+              SizedBox(height: 10),
+              Text("Selamat Datang",
+              style: TextStyle(
+                fontSize: 20.0,
+                fontWeight: FontWeight.bold,
+              ),),
             ],
           ),
         ),
