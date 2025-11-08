@@ -28,7 +28,28 @@ class MySplashScreen extends StatelessWidget {
               style: TextStyle(
                 fontSize: 50.0,
                 fontWeight: FontWeight.bold,
-              ),)
+              ),),
+              SizedBox(height: 15),
+              Text("Bergabunglah dengan komunitas \n dan buat acara virtual",
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontSize: 20.0,
+                fontWeight: FontWeight.normal,
+              ),),
+              SizedBox(height: 20),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Container(
+                    width: 10,
+                    height: 10,
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      color: Colors.pink,
+                    ),
+                  )
+                ],
+              )
             ],
           ),
       ),
