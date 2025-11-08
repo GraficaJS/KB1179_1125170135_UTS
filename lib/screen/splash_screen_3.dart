@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:uts_1125170135/screen/splash_screen_2.dart';
+import 'package:uts_1125170135/screen/splash_screen_1.dart';
 
-class MySplashScreen extends StatelessWidget {
-  const MySplashScreen({super.key});
+class MySplashScreen3 extends StatelessWidget {
+  const MySplashScreen3({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -19,7 +19,7 @@ class MySplashScreen extends StatelessWidget {
                   shape: BoxShape.circle,
                   color: Colors.pink,
                   image: DecorationImage(
-                    image: AssetImage("images/roblox33.jpg"),
+                    image: AssetImage("images/roblox22.jpg"),
                     fit: BoxFit.cover,
                     ),
                 ),
@@ -31,7 +31,7 @@ class MySplashScreen extends StatelessWidget {
                 fontWeight: FontWeight.bold,
               ),),
               SizedBox(height: 15),
-              Text("Bergabunglah dengan komunitas \n dan buat acara virtual",
+              Text("Bergabunglah dengan komunitas \n Bermain dan berkreasi, itulah Roblox",
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 20.0,
@@ -46,7 +46,7 @@ class MySplashScreen extends StatelessWidget {
                     height: 10,
                     decoration: BoxDecoration(
                       shape: BoxShape.circle,
-                      color: Colors.pink,
+                      color: Colors.pink[100],
                     ),
                   ),
                   SizedBox(width: 10),
@@ -55,7 +55,7 @@ class MySplashScreen extends StatelessWidget {
                     height: 10,
                     decoration: BoxDecoration(
                       shape: BoxShape.circle,
-                      color: Colors.pink[100],
+                      color: Colors.pink,
                     ),
                   ),
                   SizedBox(width: 10),
@@ -79,17 +79,15 @@ class MySplashScreen extends StatelessWidget {
                     onPressed: (){
                       Navigator.push(
                         context,
-                        MaterialPageRoute(builder: (context) => MySplashScreen2(),
+                        MaterialPageRoute(builder: (context) => MySplashScreen(),
                         ),);
                     },
                     style: ElevatedButton.styleFrom(
                       backgroundColor: Colors.pink
                     ),
                     child: Text("Lanjutkan",
-                    style: TextStyle(fontSize: 14,
-                    color: Colors.white,
-                    fontWeight: FontWeight.bold,
-                    ),)),
+                    style: TextStyle(fontSize: 14),
+                    )),
                 ),
               ),
               SizedBox(height: 70),
