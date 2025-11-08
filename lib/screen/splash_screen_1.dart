@@ -27,6 +27,7 @@ class MySplashScreen extends StatelessWidget {
               Text("Roblox",
               style: TextStyle(
                 fontSize: 50.0,
+                fontWeight: FontWeight.bold,
               ),)
             ],
           ),
