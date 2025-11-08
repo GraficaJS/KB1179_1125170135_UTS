@@ -67,7 +67,29 @@ class MySplashScreen extends StatelessWidget {
                     ),
                   ),
                 ],
-              )
+              ),
+              SizedBox(height: 20),
+              Container(
+                margin: EdgeInsets.only(left: 40,right: 40),
+                child: SizedBox(
+                  height: 40,
+                  width: double.infinity,
+                  child: ElevatedButton(
+                    onPressed: (){
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => MySplashScreen2(),
+                        ),);
+                    },
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.pink
+                    ),
+                    child: Text("Lanjutkan",
+                    style: TextStyle(fontSize: 14),
+                    )),
+                ),
+              ),
+              SizedBox(height: 70),
             ],
           ),
       ),
