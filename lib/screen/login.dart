@@ -77,9 +77,25 @@ class Login extends StatelessWidget {
                   alignment: AlignmentGeometry.centerRight,
                   child: TextButton(
                     onPressed: (){},
-                    child: Text("Lupa Pasword?",)),
+                    child: Text("Lupa Pasword?",
+                    style: TextStyle(
+                      color: Colors.pink[700]!,
+                      fontSize: 14,
+                    ),)),
                 ),
-
+                SizedBox(height: 20),
+                ElevatedButton(
+                  onPressed: (){},
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.pink[700]!,
+                    foregroundColor: Colors.white,
+                    padding: const EdgeInsets.symmetric(vertical: 16),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadiusGeometry.circular(12),
+                    ),
+                    elevation: 2,
+                  ),
+                  child: Text("Atau"))
               ],
             ),
           ),
