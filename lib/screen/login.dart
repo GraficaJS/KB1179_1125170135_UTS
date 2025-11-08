@@ -53,7 +53,15 @@ class Login extends StatelessWidget {
                     ),
                   ),
                 ),
-                SizedBox()
+                SizedBox(height: 20),
+                TextField(
+                  obscureText: true,
+                  decoration: InputDecoration(
+                    labelText: "Password",
+                    hintText: "Masukan Password anda",
+                    
+                  ),
+                )
               ],
             ),
           ),
